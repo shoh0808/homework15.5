@@ -1,0 +1,164 @@
+body{
+    background-color: pink;
+    padding: 50px;
+}
+main{
+    background-color: white;
+    height: 100vh;
+}
+p{
+    color: slategrey;
+    font-size: 20px;
+}
+.bigbox,
+.bigbox2,
+.bigbox3 {
+    display: flex;
+    justify-content: start;
+}
+
+.box {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 150px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: orange;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 8px 5px;
+
+}
+
+.box2 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 4px;
+    gap: 4px;
+}
+
+
+.box3 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 150px;
+    border-radius: 5px;
+}
+
+.ikki {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.box5 {
+
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 150px;
+    border-radius: 5px;
+
+}
+
+.box6 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: end;
+    gap: 4px;
+}
+
+.box7 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+
+.box8 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    padding: 4px;
+}
+
+.box9 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 150px;
+    border-radius: 5px;
+}
+
+.box10 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    gap: 4px;
+
+}
+
+.box11 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 150px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.box12 {
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    margin: 50px 0px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 4px;
+
+}
